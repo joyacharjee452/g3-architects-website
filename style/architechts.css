@@ -139,9 +139,25 @@ main > section {
 .feature-card{
      padding: 30px;
      border-radius: 8px;
-     box-shadow: 0 4px 30px o rgba(0, 0, 0, 0.06);
+     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
      margin-bottom: 20px;
+    
 }
+#Experience-badge{
+    padding: 45px 42px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#Experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.feature-architect img{
+    width: 100%;
+}
+
 
 /* some facts releted card styles */
 .fact-container{
@@ -190,7 +206,7 @@ main > section {
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
-    .navbar, .nav-links, .teams{
+    .navbar, .nav-links, .teams, .features{
         flex-direction: column;
     }
     .team-img-container, 
@@ -208,6 +224,10 @@ main > section {
     }
     .our-features{
         margin-left: 20px;
+    }
+    #Experience-badge{
+        margin-top: 20px;
+        margin-right: 20px;
     }
     
 }
